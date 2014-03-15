@@ -1,7 +1,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  background-color: #fff;
-  color: #999; }
+  background-color: white;
+  color: #999999; }
 
 #wrapper {
   max-width: 940px;
@@ -36,13 +36,13 @@ h1 {
   font-size: 1.75em;
   font-weight: normal;
   line-height: 0.8em;
-  color: #fff; }
+  color: white; }
 
 h2 {
   font-size: 0.75em;
   margin: -5px 0 0;
   font-weight: normal;
-  color: #fff; }
+  color: white; }
 
 nav {
   text-align: center;
@@ -63,7 +63,7 @@ footer {
   text-align: center;
   clear: both;
   padding-top: 50px;
-  color: #ccc; }
+  color: #cccccc; }
 
 .social-icon {
   width: 20px;
@@ -107,9 +107,9 @@ footer {
 nav {
   background: #599a68; }
   nav a {
-    color: #fff; }
+    color: white; }
     nav a:visited {
-      color: #fff; }
+      color: white; }
     nav a .selected {
       color: #32673f; }
     nav a:hover {

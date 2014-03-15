@@ -1,7 +1,13 @@
+$green: #6ab47b;
+$dark-green: #599a68;
+$white: #fff;
+$dark-grey: #999;
+$grey: #ccc;
+
 body {
   font-family: 'Open Sans', sans-serif;
-  background-color: #fff;
-  color: #999;
+  background-color: $white;
+  color: $dark-grey;
 }
 
 #wrapper {
@@ -12,7 +18,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #6ab47b;
+  color: $green;
 }
 
 img {
@@ -28,8 +34,8 @@ header {
   margin: 0 0 30px 0;
   padding: 5px 0 0 0;
   width: 100%;
-  background: #6ab47b;
-  border-color: #599a68;
+  background: $green;
+  border-color: $dark-green;
 }
 
 #logo {
@@ -43,14 +49,14 @@ h1 {
   font-size: 1.75em;
   font-weight: normal;
   line-height: 0.8em;
-  color: #fff;
+  color: $white;
 }
 
 h2 {
   font-size: 0.75em;
   margin: -5px 0 0;
   font-weight: normal;
-  color: #fff;
+  color: $white;
 }
 
 nav {
@@ -79,7 +85,7 @@ footer {
   text-align: center;
   clear: both;
   padding-top: 50px;
-  color: #ccc;
+  color: $grey;
 }
 
 .social-icon {
@@ -137,9 +143,9 @@ nav {
   background: #599a68;
 
   a {
-    color: #fff;
+    color: $white;
     &:visited {
-      color: #fff;
+      color: $white;
     }
     .selected {
       color: #32673f;
