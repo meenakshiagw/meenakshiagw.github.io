@@ -6,7 +6,6 @@ $dark-grey: #999;
 $grey: #ccc;
 
 
-
 body {
   font-family: 'Open Sans', sans-serif;
   background-color: $white;
@@ -145,31 +144,18 @@ footer {
 nav {
   background: $dark-green;
 
-  a {
+  a {    
     color: $white;
     &:visited {
       color: $white;
     }
+
     &.selected {
       color: $very-dark-green;
     }
+
     &:hover {
       color: $very-dark-green;
     }
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
