@@ -1,22 +1,27 @@
 body {
   font-family: 'Open Sans', sans-serif;
   background-color: #fff;
-  color: #999; }
+  color: #999;
+}
 
 #wrapper {
   max-width: 940px;
   margin: 0 auto;
-  padding: 0 5%; }
+  padding: 0 5%;
+}
 
 a {
   text-decoration: none;
-  color: #6ab47b; }
+  color: #6ab47b;
+}
 
 img {
-  max-width: 100%; }
+  max-width: 100%;
+}
 
 h3 {
-  margin: 0 0 1em 0; }
+  margin: 0 0 1em 0;
+}
 
 header {
   float: left;
@@ -24,11 +29,13 @@ header {
   padding: 5px 0 0 0;
   width: 100%;
   background: #6ab47b;
-  border-color: #599a68; }
+  border-color: #599a68;
+}
 
 #logo {
   text-align: center;
-  margin: 0; }
+  margin: 0;
+}
 
 h1 {
   font-family: 'Changa One', sans-serif;
@@ -36,81 +43,124 @@ h1 {
   font-size: 1.75em;
   font-weight: normal;
   line-height: 0.8em;
-  color: #fff; }
+  color: #fff;
+}
 
 h2 {
   font-size: 0.75em;
   margin: -5px 0 0;
   font-weight: normal;
-  color: #fff; }
+  color: #fff;
+}
 
 nav {
   text-align: center;
   padding: 10px 0;
-  margin: 20px 0 0; }
-  nav ul {
+  margin: 20px 0 0;
+
+  ul {
     list-style: none;
     margin: 0 10px;
-    padding: 0; }
-  nav li {
-    display: inline-block; }
-  nav a {
+    padding: 0;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  a {
     font-weight: 800;
-    padding: 15px 10px; }
+    padding: 15px 10px;
+  }
+}
 
 footer {
   font-size: 0.75em;
   text-align: center;
   clear: both;
   padding-top: 50px;
-  color: #ccc; }
+  color: #ccc;
+}
 
 .social-icon {
   width: 20px;
   height: 20px;
-  margin: 0 5px; }
+  margin: 0 5px;
+}
 
 #gallery {
   margin: 0;
   padding: 0;
-  list-style: none; }
-  #gallery li {
+  list-style: none;
+
+  li {
     float: left;
     width: 45%;
     margin: 2.5%;
     background-color: #f5f5f5;
-    color: #bdc3c7; }
+    color: #bdc3c7;
+  }
+}
 
 .profile-photo {
   display: block;
   max-width: 150px;
   margin: 0 auto 30px;
-  border-radius: 100%; }
+  border-radius: 100%;
+}
 
 .contact-info {
   list-style: none;
   padding: 0;
   margin: 0;
-  font-size: 0.9em; }
-  .contact-info a {
+  font-size: 0.9em;
+
+  a {
     display: block;
     min-height: 20px;
     background-repeat: no-repeat;
     background-size: 20px 20px;
     padding: 0 0 0 30px;
-    margin: 0 0 10px 0; }
-  .contact-info li.mail a {
-    background-image: url("../img/mail.png"); }
-  .contact-info li.twitter a {
-    background-image: url("../img/twitter.png"); }
+    margin: 0 0 10px 0;
+  }
+
+  li.mail a {
+    background-image: url('../img/mail.png');
+  }
+
+  li.twitter a {
+    background-image: url('../img/twitter.png');
+  }
+}
 
 nav {
-  background: #599a68; }
-  nav a {
-    color: #fff; }
-    nav a:visited {
-      color: #fff; }
-    nav a .selected {
-      color: #32673f; }
-    nav a:hover {
-      color: #32673f; }
+  background: #599a68;
+
+  a {
+    color: #fff;
+    &:visited {
+      color: #fff;
+    }
+    .selected {
+      color: #32673f;
+    }
+    &:hover {
+      color: #32673f;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
