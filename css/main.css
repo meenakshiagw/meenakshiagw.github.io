@@ -110,7 +110,7 @@ nav {
     color: white; }
     nav a:visited {
       color: white; }
-    nav a .selected {
+    nav a.selected {
       color: #32673f; }
     nav a:hover {
       color: #32673f; }

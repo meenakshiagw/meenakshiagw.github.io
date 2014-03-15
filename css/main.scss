@@ -4,6 +4,8 @@ $white: #fff;
 $dark-grey: #999;
 $grey: #ccc;
 
+
+
 body {
   font-family: 'Open Sans', sans-serif;
   background-color: $white;
@@ -147,7 +149,7 @@ nav {
     &:visited {
       color: $white;
     }
-    .selected {
+    &.selected {
       color: #32673f;
     }
     &:hover {
